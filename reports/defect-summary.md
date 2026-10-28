@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3733ccde-dfc7-4b38-9fbe-36590cc01652" /># Defect Summary (Task 2)
+Defect Summary (Task 2)
 
 Source: `defect-logs/defect-log.md` (47 defects, 12 cross-requirement).
 
@@ -18,20 +18,18 @@ Source: `defect-logs/defect-log.md` (47 defects, 12 cross-requirement).
 
 ## Chart
 
-```text
-CATEGORY           | DEFECTS (1 block = 1 defect)   TOTAL
--------------------+--------------------------------------
-Incompleteness     | ████▒▒▒▒▒▒▒▒▒▒▒▒               16
-Ambiguity          | ████▒▒▒▒▒▒▒▒▒                  13
-Vagueness          | ████▒                           5
-Non-verifiability  | ▒▒▒▒                            4
-Contradiction      | ██▒                             3
-Infeasibility      | ▒▒                              2
-Redundancy         | ░░                              2
-Untraceability     | ▒░                              2
--------------------+--------------------------------------
-KEY:  █ = High severity   ▒ = Medium severity   ░ = Low severity
-```
+| Category | Defects (1 square = 1 defect) | Total |
+|---|---|---:|
+| Incompleteness | 🟥🟥🟥🟥🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧 | **16** |
+| Ambiguity | 🟥🟥🟥🟥🟧🟧🟧🟧🟧🟧🟧🟧🟧 | **13** |
+| Vagueness | 🟥🟥🟥🟥🟧 | **5** |
+| Non-verifiability | 🟧🟧🟧🟧 | **4** |
+| Contradiction | 🟥🟥🟧 | **3** |
+| Infeasibility | 🟧🟧 | **2** |
+| Redundancy | 🟨🟨 | **2** |
+| Untraceability | 🟧🟨 | **2** |
+
+**Key:** 🟥 = High severity &nbsp;&nbsp; 🟧 = Medium severity &nbsp;&nbsp; 🟨 = Low severity
 
 *Figure 1. Number of defects per category, split by severity.*
 
