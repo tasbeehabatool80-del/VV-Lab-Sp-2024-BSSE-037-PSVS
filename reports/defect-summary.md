@@ -18,30 +18,9 @@ Source: `defect-logs/defect-log.md` (47 defects, 12 cross-requirement).
 
 ## Chart
 
-### Chart 1: Defects per category
+![Defects by category and severity](defect-summary-chart.png)
 
-```mermaid
-xychart-beta
-    title "Number of defects per category"
-    x-axis [Ambig, Vague, Incomp, Contra, NonVer, Redund, Infeas, Untrace]
-    y-axis "Number of defects" 0 --> 18
-    bar [13, 5, 16, 3, 4, 2, 2, 2]
-```
-
-*Figure 1. Number of defects per category.*
-
-**Key to category names:** Ambig = Ambiguity, Vague = Vagueness, Incomp = Incompleteness, Contra = Contradiction, NonVer = Non-verifiability, Redund = Redundancy, Infeas = Infeasibility, Untrace = Untraceability.
-
-### Chart 2: Defects by severity
-
-```mermaid
-pie showData title Defects by severity (47 total)
-    "High" : 14
-    "Medium" : 30
-    "Low" : 3
-```
-
-*Figure 2. Share of defects by severity.*
+*Figure 1. Number of defects per category, split by severity (red = High, orange = Medium, yellow = Low).*
 
 ## Defects per requirement
 
