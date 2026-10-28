@@ -1,4 +1,4 @@
-Defect Summary (Task 2)
+# Defect Summary (Task 2)
 
 Source: `defect-logs/defect-log.md` (47 defects, 12 cross-requirement).
 
@@ -18,20 +18,30 @@ Source: `defect-logs/defect-log.md` (47 defects, 12 cross-requirement).
 
 ## Chart
 
-| Category | Defects (1 square = 1 defect) | Total |
-|---|---|---:|
-| Incompleteness | 🟥🟥🟥🟥🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧 | **16** |
-| Ambiguity | 🟥🟥🟥🟥🟧🟧🟧🟧🟧🟧🟧🟧🟧 | **13** |
-| Vagueness | 🟥🟥🟥🟥🟧 | **5** |
-| Non-verifiability | 🟧🟧🟧🟧 | **4** |
-| Contradiction | 🟥🟥🟧 | **3** |
-| Infeasibility | 🟧🟧 | **2** |
-| Redundancy | 🟨🟨 | **2** |
-| Untraceability | 🟧🟨 | **2** |
+### Chart 1: Defects per category
 
-**Key:** 🟥 = High severity &nbsp;&nbsp; 🟧 = Medium severity &nbsp;&nbsp; 🟨 = Low severity
+```mermaid
+xychart-beta
+    title "Number of defects per category"
+    x-axis [Ambig, Vague, Incomp, Contra, NonVer, Redund, Infeas, Untrace]
+    y-axis "Number of defects" 0 --> 18
+    bar [13, 5, 16, 3, 4, 2, 2, 2]
+```
 
-*Figure 1. Number of defects per category, split by severity.*
+*Figure 1. Number of defects per category.*
+
+**Key to category names:** Ambig = Ambiguity, Vague = Vagueness, Incomp = Incompleteness, Contra = Contradiction, NonVer = Non-verifiability, Redund = Redundancy, Infeas = Infeasibility, Untrace = Untraceability.
+
+### Chart 2: Defects by severity
+
+```mermaid
+pie showData title Defects by severity (47 total)
+    "High" : 14
+    "Medium" : 30
+    "Low" : 3
+```
+
+*Figure 2. Share of defects by severity.*
 
 ## Defects per requirement
 
