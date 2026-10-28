@@ -18,15 +18,9 @@ Source: `defect-logs/defect-log.md` (47 defects, 12 cross-requirement).
 
 ## Chart
 
-```mermaid
-xychart-beta
-    title "Defects by category"
-    x-axis [Ambiguity, Vagueness, Incompleteness, Contradiction, Non-verifiability, Redundancy, Infeasibility, Untraceability]
-    y-axis "Number of defects" 0 --> 18
-    bar [13, 5, 16, 3, 4, 2, 2, 2]
-```
+   ![Defects by category and severity](defect-summary-chart.png)
 
-*Figure 1. Number of defects per category.*
+   *Figure 1. Number of defects per category, split by severity.*
 
 ## Defects per requirement
 
